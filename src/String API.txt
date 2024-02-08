@@ -1,0 +1,41 @@
+matches(String regexp): boolean
+split(String regexp): String[]
+replaceFirst(String regexp, String replacement): String
+replaceAll(String regexp, String replacement): String
+
+toCharArray(): char[]
+
+-----------------------------------------------------------------------
+
+String.format(String str, String ...arguments): String
+String.join(String delimiter, String ...str): String
+
+length(): int
+isEmpty(): boolean  // length == 0
+isBlank(): boolean
+trim(): String
+strip(): String
+stripLeading(): String
+stripTrailing(): String
+concat(String str): String
+charAt(int index): char
+indexOf(String str): int
+indexOf(String str, int startIndex): int
+indexOf(String str, int startIndex, int endIndex): int
+lastIndexOf(String str): int
+lastIndexOf(String str, int startIndex): int
+lastIndexOf(String str, int startIndex, int endIndex): int
+toUpperCase(): String
+toLowerCase(): String
+subString(int startIndex): String
+subString(int startIndex, int endIndex): String
+replace(char oldChar, char newChar): String
+replace(String oldStr, char newStr): String
+repeat(int count): String
+contains(String str): boolean
+startsWith(String str): boolean
+startsWith(String str, int startIndex): boolean
+endsWith(String str): boolean
+equals(String str): boolean
+equalsIgnoreCase(String str): boolean
+
