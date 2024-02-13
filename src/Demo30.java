@@ -38,22 +38,25 @@ void main(){
     Integer myWrapperInt = Integer.valueOf(myPrimitiveInt);     // Boxing Conversion
     int myPrimitiveInt2 = myWrapperInt.intValue();              // Unboxing Conversion
 
-//    Scanner myScanner = (Scanner) 10;
+    //Scanner myScanner = (Scanner) (Object) 10;
 //    short myShort2 = 10;
 //    Short myShort = 10;
-//
-//    String str2 = (String) new Scanner(System.in);
+
+   // String str2 = (String) new Scanner(System.in);
 //    Number n = 55;
 //    Integer i = (Integer) n;
 //    Number n2 = i;
-//
+
 //    Scanner scanner = null;
 //    String str3 = (String) scanner;
 //    BigDecimal bd = (BigDecimal) null;
-//
-//    byte b4 = 10;
-//    long l = (Byte) b4;
-//
-//    long l2 = 20;
-//    int i3 = (Long) l2;
+
+    byte b4 = 10;
+    long l = (Byte) b4;
+
+    long l2 = 20;
+    int i3 = (int) (long) l2;
+
+    Integer myInt = 20;
+    Long myLong = (Long) (long) (int) myInt;
 }
